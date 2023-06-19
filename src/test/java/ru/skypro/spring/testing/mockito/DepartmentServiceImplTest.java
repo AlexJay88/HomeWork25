@@ -71,7 +71,6 @@ class DepartmentServiceImplTest {
 
     }
 
-
     @Test
     void shouldReturnNullWhenNoEmployeesInDepartment() {
         final int departmentId = 2;
