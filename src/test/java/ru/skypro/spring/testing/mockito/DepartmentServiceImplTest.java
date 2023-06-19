@@ -14,7 +14,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-
 import static org.mockito.Mockito.when;
 
 
@@ -70,7 +69,6 @@ class DepartmentServiceImplTest {
         Assertions.assertEquals(employees.get(0), employeeWithMinSalary);
 
     }
-
 
     @Test
     void shouldReturnNullWhenNoEmployeesInDepartment() {
